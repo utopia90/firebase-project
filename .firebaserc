@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "vinyl-db-85fbf": {
+      "hosting": {
+        "vinylapp": [
+          "vinyl-db-85fbf"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "vinyl-db-85fbf"
+  }
+}

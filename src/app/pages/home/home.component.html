@@ -1,0 +1,31 @@
+<div class="main-container">
+  <div class="main-container__top">
+    <h1 class="title">Bienvenido/a a tu colección de vinilos</h1>
+    <h5>Tienes vinilos de los siguientes países:</h5>
+    <div 
+      *ngFor="let country of countriesList"
+      class="vinyl-countries-container"
+    >
+      <h3>{{ country.name }}</h3>
+    </div>
+    <div class="favourite-album-container">
+      <app-change-message></app-change-message>
+      <div class="fav-album">
+        Mi disco favorito es:
+        <div>{{ mensaje }}</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="vinyls-container">
+    <div class="vinyls-container__item" *ngFor="let vinyl of vinylsList">
+      <h3>{{ vinyl.name }}</h3>
+      <img src="{{ vinyl.imagen }}" />
+      <h4>{{ vinyl.author }}</h4>
+      <div class="vinyl-country">
+        <span>{{ vinyl.country }}</span>
+        <span>{{ vinyl.year }}</span>
+      </div>
+    </div>
+  </div>
+</div>

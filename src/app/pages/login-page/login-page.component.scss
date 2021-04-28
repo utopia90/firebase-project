@@ -1,0 +1,16 @@
+.login-form {
+    text-align: center;
+    transform: translateY(50%);
+}
+
+.expert-submit-form__block {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.create-account, .password-forgot{
+    color: #3f51b5;
+    cursor: pointer;
+}

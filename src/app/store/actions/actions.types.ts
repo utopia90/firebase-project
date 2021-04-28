@@ -1,0 +1,5 @@
+
+export const ACTION_CAMBIO_MENSAJE = 'ACTION_CAMBIO_MENSAJE';
+
+
+

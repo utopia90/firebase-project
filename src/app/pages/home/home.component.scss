@@ -1,0 +1,67 @@
+.vinyl-countries-container{
+    display: flex;
+    justify-content: center;
+
+    h3{
+        font-weight: bold;
+        color: #3f51b5;
+    }
+}
+
+.main-container__top {
+    text-align: center;
+}
+
+.fav-album{
+    div{
+        color: #3f51b5;
+        font-weight: bold;
+        font-size: 15px;
+
+    }
+}
+img {
+    width: 21rem;
+}
+
+.title{
+    font-size: 35px;
+    color: #3f51b5;
+    font-weight: 600;
+}
+
+.vinyls-container{
+display: flex;
+flex-wrap:wrap;
+justify-content: center;
+padding-top: 4rem;
+
+&__item{
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+}
+
+h3{
+    text-align: center;
+    color: #3f51b5;
+    font-weight: bold;
+}
+
+h4{
+    text-align: center;
+}
+
+
+
+}
+
+.vinyl-country{
+    font-style: italic;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    span{
+        margin-right: 0.3rem;
+    }
+}

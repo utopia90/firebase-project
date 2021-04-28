@@ -1,0 +1,24 @@
+<div class="login-form">
+    <h2 class="login-form__title">Bienvenido/a</h2>
+    <h4 class="login-form__subtitle">Inicia sesión para continuar</h4>
+        <div class="expert-submit-form">
+          <form [formGroup]="loginForm" (submit)="login()">
+          
+            <div class="expert-submit-form__block">
+            <mat-form-field>
+              <input matInput placeholder="Email" formControlName="mail" />
+            </mat-form-field>
+            <mat-form-field>
+              <input type="password" matInput placeholder="Contraseña" formControlName="password" />
+            </mat-form-field>
+          </div>
+          <div class="expert-submit-form__bottom">
+            <div class="expert-submit-form__bottom__left">
+              <p class="password-forgot">Has Olvidado la Contraseña?</p>
+              <p class="register-link">Nuevo usuario? <span class="create-account" routerLink="/register">Crear Cuenta</span></p>
+            </div>
+              <button mat-raised-button color="primary" class="login-btn" type="submit">Iniciar Sesión</button>
+          </div>
+          </form>
+        </div> 
+  </div>
